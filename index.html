@@ -34,6 +34,28 @@
         <p>Once a month we each bring our best photo and talk about how we took it.</p>
       </div>
     </div>
+    <section class="contact">
+      <h2>Contact us</h2>
+      <p>Want to join or ask a question? Send us a note. This is a practice form, so it does not send anything.</p>
+
+      <form id="contact-form" novalidate>
+        <label for="name">Your name</label>
+        <input type="text" id="name">
+        <p class="error" id="name-error"></p>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email">
+        <p class="error" id="email-error"></p>
+
+        <label for="message">Your message</label>
+        <textarea id="message" rows="5"></textarea>
+        <p class="error" id="message-error"></p>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <p class="thanks" id="thanks" hidden></p>
+    </section>
   </main>
 
   <footer class="site-footer">

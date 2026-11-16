@@ -92,3 +92,49 @@ h1 {
     width: auto;
   }
 }
+
+/* The contact form on the home page */
+.contact {
+  margin-top: 32px;
+  max-width: 600px;
+}
+
+.contact label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  font-family: inherit;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+.contact button {
+  margin-top: 16px;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: #ffffff;
+  background: #1f3b4d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  margin: 4px 0 0;
+  color: #b00020;
+  font-size: 16px;
+}
+
+.thanks {
+  padding: 16px;
+  background: #e3f4e1;
+  border: 1px solid #7bb274;
+  border-radius: 8px;
+}
