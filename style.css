@@ -29,7 +29,7 @@ body {
 
 /* The middle part of the page */
 main {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -76,4 +76,19 @@ h1 {
 .menu a {
   color: #ffffff;
   font-weight: bold;
+}
+
+/* Phone screens: 600 pixels wide or less */
+@media (max-width: 600px) {
+  main {
+    padding: 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: auto;
+  }
 }
