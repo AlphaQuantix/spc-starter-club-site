@@ -138,3 +138,33 @@ h1 {
   border: 1px solid #7bb274;
   border-radius: 8px;
 }
+
+/* The gallery page: three photos in a row */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+/* On a phone, show one photo in each row */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
