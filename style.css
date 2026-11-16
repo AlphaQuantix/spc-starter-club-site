@@ -64,3 +64,16 @@ h1 {
   color: #555555;
   text-align: center;
 }
+
+/* The menu at the top of every page */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 8px;
+}
+
+.menu a {
+  color: #ffffff;
+  font-weight: bold;
+}
