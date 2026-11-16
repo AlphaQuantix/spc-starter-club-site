@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Flowers by the main gate">
+  <title>Flowers by the main gate</title>
+  <rect width="400" height="300" fill="#e9f5db"/>
+  <rect y="230" width="400" height="70" fill="#87986a"/><g fill="#e56b6f"><circle cx="80" cy="190" r="22"/><circle cx="200" cy="170" r="26"/><circle cx="320" cy="195" r="22"/></g><g fill="#ffd166"><circle cx="80" cy="190" r="8"/><circle cx="200" cy="170" r="9"/><circle cx="320" cy="195" r="8"/></g><g fill="#4f772d"><rect x="77" y="212" width="6" height="40"/><rect x="197" y="196" width="6" height="56"/><rect x="317" y="217" width="6" height="35"/></g>
+</svg>

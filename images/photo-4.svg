@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="The moon on a clear night">
+  <title>The moon on a clear night</title>
+  <rect width="400" height="300" fill="#14213d"/>
+  <circle cx="290" cy="90" r="40" fill="#f1f1e6"/><circle cx="60" cy="50" r="3" fill="#ffffff"/><circle cx="130" cy="110" r="2" fill="#ffffff"/><circle cx="180" cy="40" r="3" fill="#ffffff"/><circle cx="90" cy="180" r="2" fill="#ffffff"/><circle cx="350" cy="200" r="3" fill="#ffffff"/><rect y="250" width="400" height="50" fill="#0b132b"/>
+</svg>

@@ -1,0 +1,66 @@
+/* style.css: the look of every page on the site. */
+
+/* Make widths include padding and borders. This keeps sizes easy to work out. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #222222;
+  background: #f6f4ef;
+}
+
+/* The dark bar at the top of the page */
+.site-header {
+  background: #1f3b4d;
+  color: #ffffff;
+  padding: 16px 24px;
+}
+
+.club-name {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* The middle part of the page */
+main {
+  width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #1f3b4d;
+}
+
+/* The three cards on the home page sit side by side */
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  width: 288px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+/* The strip at the bottom of the page */
+.site-footer {
+  padding: 16px 24px;
+  font-size: 14px;
+  color: #555555;
+  text-align: center;
+}
