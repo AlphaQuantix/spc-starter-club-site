@@ -34,7 +34,7 @@ When you test the form, **use made-up names and emails**. Do not type your own n
 ```
 
 3. Click at the very start of that line, before the spaces. Press **Enter**. This makes an empty line above it.
-4. Click on the new empty line. Paste this code:
+4. Click on the new empty line. Paste this code. (If the first line ends up with more spaces in front than shown here, that is fine. Spaces at the start of a line do not matter.)
 
 ```html
     <section class="contact">

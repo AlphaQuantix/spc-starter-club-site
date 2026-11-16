@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="210" viewBox="0 0 720 210" font-family="Arial, Helvetica, sans-serif" font-size="15">
+  <title>Drawing: the Add file button and its menu, with Create new file at the top</title>
+  <rect x="0" y="0" width="720" height="210" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="20" y="16" width="110" height="34" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="34" y="38" fill="#1f2328">&lt;&gt; Code</text>
+  <rect x="440" y="16" width="120" height="34" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="454" y="38" fill="#1f2328">Add file  &#9662;</text>
+  <rect x="570" y="16" width="130" height="34" rx="6" fill="#1f883d"/>
+  <text x="590" y="38" fill="#ffffff" font-weight="bold">&lt;&gt; Code  &#9662;</text>
+  <rect x="380" y="56" width="220" height="80" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="396" y="86" fill="#1f2328">+ Create new file</text>
+  <text x="396" y="120" fill="#57606a">&#8593; Upload files</text>
+  <rect x="434" y="10" width="132" height="46" rx="8" fill="none" stroke="#cf222e" stroke-width="4"/>
+  <rect x="384" y="64" width="212" height="34" rx="6" fill="none" stroke="#cf222e" stroke-width="4"/>
+  <text x="20" y="90" fill="#1f2328">README.md</text>
+  <text x="20" y="116" fill="#1f2328">index.html</text>
+  <text x="20" y="142" fill="#1f2328">style.css</text>
+  <text x="20" y="186" fill="#cf222e" font-weight="bold">1. Click Add file. 2. Click Create new file.</text>
+</svg>

@@ -52,6 +52,8 @@ Do this for `index.html`, then `about.html`, then `events.html`.
   <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+**Extra spaces do not matter.** When you press **Enter**, GitHub may add some spaces at the start of the new line. After you paste, the first line may then start further to the right than in the example. That is fine. The browser ignores spaces at the start of a line, so your page still works.
+
 7. Click **Commit changes...**. Use a message like `Add viewport line to home page`. Change the page name for each file.
 8. Click **Commit changes**.
 
@@ -124,6 +126,8 @@ The feature is done when **at 360 pixels wide, nothing scrolls sideways and the 
 3. At the top left of the panel, click the small icon that looks like a phone and a tablet. Its name is **Toggle device toolbar**. You can also press **Ctrl + Shift + M** (on a Mac: **Cmd + Shift + M**).
 4. Above the page you now see a bar. In the first menu, pick **Responsive**.
 5. Click the width box next to it. Type `360` and press **Enter**.
+
+   ![Drawing of Chrome with the Inspect panel open. The phone-and-tablet icon is at the top left of the panel. The width box above the page says 360, and the cards sit in one column.](pictures/device-toolbar.svg)
 6. Scroll down the home page. The three cards must be in one column.
 7. Try to scroll sideways. There must be no sideways scroll bar.
 8. Click **About** and **Events** in the menu. Check them the same way.

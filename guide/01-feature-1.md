@@ -22,6 +22,9 @@ A link only works if the file name is spelled the same way in both places. `abou
 
 1. Go to your copy of the repository on GitHub. Click the **Code** tab.
 2. Click the **Add file** button. Then click **Create new file**.
+
+   ![Drawing of the Code tab. The Add file button is open, and Create new file is the first item in its menu.](pictures/add-file.svg)
+
 3. In the **Name your file...** box at the top, type exactly: `about.html`
 4. Copy all the code below. Paste it into the big box.
 
@@ -61,6 +64,8 @@ A link only works if the file name is spelled the same way in both places. `abou
 5. Click the green **Commit changes...** button at the top right.
 6. In **Commit message**, type: `Add about page`
 7. Leave **Commit directly to the main branch** picked. Click **Commit changes**.
+
+   ![Drawing of the Commit changes box. Type a note in Commit message. Leave Commit directly to the main branch picked. Then click the green Commit changes button.](pictures/commit-dialog.svg)
 
 The `<nav class="menu">` part is the menu. Each `<a href="...">` is one link. The part inside the quotes is the file the link opens.
 
@@ -115,6 +120,9 @@ The two new pages have a menu. The home page does not have one yet.
 
 1. Click the **Code** tab. Click `index.html` in the list of files.
 2. Click the pencil icon (**Edit this file**) near the top right.
+
+   ![Drawing of a file open on GitHub. The pencil icon, Edit this file, is at the top right of the file.](pictures/edit-pencil.svg)
+
 3. Find this line. It is near the top, inside `<header>`:
 
 ```html
@@ -144,6 +152,8 @@ The two new pages have a menu. The home page does not have one yet.
     </nav>
   </header>
 ```
+
+**Extra spaces do not matter.** When you press **Enter**, GitHub may add some spaces at the start of the new line. After you paste, the first line may then start further to the right than in the example. That is fine. The browser ignores spaces at the start of a line, so your page still works.
 
 7. Click **Commit changes...**. Type the message: `Add menu to home page`
 8. Click **Commit changes**.

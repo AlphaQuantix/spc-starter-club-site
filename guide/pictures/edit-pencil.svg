@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" font-family="Arial, Helvetica, sans-serif" font-size="15">
+  <title>Drawing: a file open on GitHub, with the pencil icon (Edit this file) at the top right</title>
+  <rect x="0" y="0" width="720" height="170" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="20" y="34" fill="#0969da">spc-starter-club-site / <tspan fill="#1f2328" font-weight="bold">index.html</tspan></text>
+  <rect x="20" y="52" width="680" height="40" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="34" y="77" fill="#1f2328" font-weight="bold">Code</text>
+  <text x="94" y="77" fill="#57606a">Blame</text>
+  <text x="470" y="77" fill="#57606a">Raw</text>
+  <rect x="580" y="58" width="36" height="28" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M590 80 l3 -8 l11 -11 l5 5 l-11 11 z" fill="none" stroke="#1f2328" stroke-width="2"/>
+  <rect x="572" y="52" width="52" height="40" rx="8" fill="none" stroke="#cf222e" stroke-width="4"/>
+  <text x="34" y="122" fill="#57606a" font-family="Courier New, monospace">1  &lt;!DOCTYPE html&gt;</text>
+  <text x="380" y="150" fill="#cf222e" font-weight="bold">The pencil: Edit this file</text>
+</svg>

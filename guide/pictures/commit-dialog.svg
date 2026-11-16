@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Arial, Helvetica, sans-serif" font-size="15">
+  <title>Drawing: the Commit changes box with a commit message, Commit directly to the main branch picked, and the green Commit changes button</title>
+  <rect x="0" y="0" width="720" height="330" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="520" y="14" width="180" height="34" rx="6" fill="#1f883d"/>
+  <text x="538" y="36" fill="#ffffff" font-weight="bold">Commit changes...</text>
+  <text x="380" y="36" fill="#cf222e" font-weight="bold">1. Click this</text>
+  <rect x="120" y="64" width="480" height="252" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="140" y="94" font-weight="bold" fill="#1f2328">Commit changes</text>
+  <text x="140" y="124" fill="#1f2328">Commit message</text>
+  <rect x="140" y="132" width="440" height="32" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+  <text x="150" y="153" fill="#1f2328">Add about page</text>
+  <text x="140" y="190" fill="#57606a">Extended description (you can leave this empty)</text>
+  <circle cx="148" cy="222" r="7" fill="#ffffff" stroke="#0969da" stroke-width="5"/>
+  <text x="164" y="227" fill="#1f2328">Commit directly to the main branch</text>
+  <circle cx="148" cy="250" r="7" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/>
+  <text x="164" y="255" fill="#57606a">Create a new branch for this commit...</text>
+  <rect x="400" y="272" width="170" height="32" rx="6" fill="#1f883d"/>
+  <text x="420" y="293" fill="#ffffff" font-weight="bold">Commit changes</text>
+  <text x="20" y="153" fill="#cf222e" font-weight="bold">2. Type</text>
+  <text x="20" y="173" fill="#cf222e" font-weight="bold">a note</text>
+  <text x="20" y="227" fill="#cf222e" font-weight="bold">3. Leave</text>
+  <text x="20" y="247" fill="#cf222e" font-weight="bold">this picked</text>
+  <text x="610" y="293" fill="#cf222e" font-weight="bold">4. Click</text>
+</svg>

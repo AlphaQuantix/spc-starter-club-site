@@ -114,6 +114,8 @@ Do this for `index.html`, then `about.html`, then `events.html`.
     </nav>
 ```
 
+**Extra spaces do not matter.** When you press **Enter**, GitHub may add some spaces at the start of the new line. After you paste, the first line may then start further to the right than in the example. That is fine. The browser ignores spaces at the start of a line, so your page still works.
+
 5. Click **Commit changes...**. Use a message like `Add gallery link to home page menu`. Change the page name for each file.
 6. Click **Commit changes**.
 
@@ -160,7 +162,13 @@ When you finish, you will have made three commits.
 4. Click **Commit changes...**. Type the message: `Lay out the gallery for laptop and phone`
 5. Click **Commit changes**.
 
-`width: 100%` and `height: auto` let each photo shrink to fit its space without being squashed.
+What the parts mean:
+
+- `display: grid` lays the photos out in a grid, like the squares on a chessboard: rows and columns.
+- `grid-template-columns: repeat(3, 1fr)` makes three columns of the same width. `1fr` means "one equal share of the space". So `repeat(3, 1fr)` is the same as writing `1fr 1fr 1fr`: three equal columns, so three photos in each row.
+- `gap: 16px` puts a space of 16 pixels between the photos.
+- Inside the media query, `grid-template-columns: 1fr` makes just one column on a phone, so the photos sit one above the other.
+- `width: 100%` and `height: auto` let each photo shrink to fit its space without being squashed.
 
 ## Check that it is done
 
